@@ -5,7 +5,7 @@ import LloydsLogo from "@/assets/logos/lloyds.svg";
 
 export default function WorkedWithSection() {
   return (
-    <section className="worked-with-section">
+    <section>
       <div className="flex flex-col items-center">
         <p className="font-medium text-muted-foreground">
           Worked With Some Great Companies
