@@ -1,15 +1,17 @@
-import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
+import Navbar from "@/components/layout/navbar";
+import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
 const RootLayout = () => (
   <>
-    <div className="p-2 flex gap-2">
-      <Link to="/" className="[&.active]:font-bold">
-        Home
-      </Link>{" "}
-    </div>
-    <hr />
-    <Outlet />
+    <html lang="en">
+      <body className="antialiased dark">
+        <Navbar />
+        <main className="mx-auto w-full max-w-7xl px-6">
+          <Outlet />
+        </main>
+      </body>
+    </html>
     <TanStackRouterDevtools />
   </>
 );
