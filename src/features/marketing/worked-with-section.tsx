@@ -10,7 +10,7 @@ export default function WorkedWithSection() {
         <p className="font-medium text-muted-foreground">
           Worked With Some Great Companies
         </p>
-        <div className="flex items-center space-x-32 max-w-4xl px-4 sm:px-8 lg:px-16 opacity-90">
+        <div className="flex items-center space-x-32 max-w-4xl px-4 sm:px-8 lg:px-16 opacity-60">
           <img
             src={LloydsLogo}
             alt="Lloyds Logo"
