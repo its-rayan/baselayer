@@ -20,7 +20,7 @@ export default function StackSection() {
   return (
     <section id="tech-stack" className="mt-32 mb-16">
       <div className="flex flex-col gap-24">
-        <div className="flex gap-1 flex-col">
+        <div className="flex gap-1 flex-col text-center">
           <p className="font-medium text-muted-foreground">Our Tech Stack</p>
           <p className="text-3xl">Clean Maintainable Code</p>
           <p className="text-3xl">Using Modern Technologies</p>
