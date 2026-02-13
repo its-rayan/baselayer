@@ -9,5 +9,5 @@ export const MarketingContainer = ({
   children,
   className,
 }: MarketingContainerProps) => (
-  <div className={cn("w-5xl mx-auto", className)}>{children}</div>
+  <div className={cn("max-w-2xl mx-auto", className)}>{children}</div>
 );

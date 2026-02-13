@@ -5,7 +5,7 @@ import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 const RootLayout = () => (
   <>
     <html lang="en">
-      <body className="antialiased dark">
+      <body className="antialiased dark bg-neutral-900 text-lg">
         <Navbar />
         <Outlet />
       </body>
