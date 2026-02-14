@@ -22,7 +22,7 @@ const brands = [
 export default function HeroSection() {
   return (
     <section className="w-full">
-      <MarketingContainer className="flex flex-col gap-4">
+      <MarketingContainer className="flex flex-col gap-6">
         <p>
           <em className="font-serif">Web development made simple</em>. We
           deliver clean, maintainable web experiences that scale with your
