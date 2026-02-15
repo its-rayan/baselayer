@@ -1,7 +1,6 @@
 import HeroSection from "@/features/marketing/hero-section";
+import PricingSection from "@/features/marketing/pricing-section";
 import ServicesSection from "@/features/marketing/services-section";
-// import StackSection from "@/features/marketing/stack-section";
-// import WorkedWithSection from "@/features/marketing/worked-with-section";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
@@ -10,9 +9,10 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="w-full flex flex-col gap-10">
+    <main className="w-full flex flex-col gap-10 h-screen">
       <HeroSection />
       <ServicesSection />
+      <PricingSection />
       {/* <WorkedWithSection />
       <div className="flex flex-col gap-16">
         <StackSection />
