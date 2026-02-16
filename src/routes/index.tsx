@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="w-full flex flex-col gap-10 h-screen">
+    <main className="w-full flex flex-col gap-10 h-screen px-6 md:px-0">
       <HeroSection />
       <ServicesSection />
       <PricingSection />
