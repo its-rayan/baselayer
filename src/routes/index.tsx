@@ -1,3 +1,4 @@
+import Navbar from "@/components/layout/navbar";
 import HeroSection from "@/features/marketing/hero-section";
 import PricingSection from "@/features/marketing/pricing-section";
 import ServicesSection from "@/features/marketing/services-section";
@@ -9,7 +10,8 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="w-full flex flex-col gap-10 h-screen px-6 md:px-0">
+    <main className="w-full flex flex-col gap-10 py-32 min-h-[calc(100vh-var(--footer-height))] px-6 md:px-0">
+      <Navbar />
       <HeroSection />
       <ServicesSection />
       <PricingSection />
